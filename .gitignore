@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Output files
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+temp/
+
+# GCP credentials
+*.json
+credentials/
+service-account-key.json
+
+# Model files
+models/
+*.safetensors
+*.ckpt
+*.bin
