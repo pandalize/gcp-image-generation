@@ -6,7 +6,7 @@ ZONE="us-central1-a"
 MACHINE_TYPE="n1-standard-4"
 BOOT_DISK_SIZE="200"
 
-echo "=== T4 GPU付きVM作成（Ubuntu 20.04ベース） ==="
+echo "=== T4 GPU付きVM作成（Ubuntu 24.04 + NVIDIA Driver 570） ==="
 echo "インスタンス名: $INSTANCE_NAME"
 echo "マシンタイプ: $MACHINE_TYPE + T4 GPU"
 echo "推定コスト: 約500円/時間"
@@ -28,8 +28,8 @@ if gcloud compute instances create $INSTANCE_NAME \
     --machine-type=$MACHINE_TYPE \
     --maintenance-policy=TERMINATE \
     --accelerator="type=nvidia-tesla-t4,count=1" \
-    --image-family=ubuntu-2004-lts \
-    --image-project=ubuntu-os-cloud \
+    --image-family=ubuntu-accelerator-2404-amd64-with-nvidia-570 \
+    --image-project=ubuntu-os-accelerator-images \
     --boot-disk-size=$BOOT_DISK_SIZE \
     --boot-disk-type=pd-ssd \
     --metadata="install-nvidia-driver=True,startup-script=#!/bin/bash
