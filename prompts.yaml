@@ -1,152 +1,70 @@
-# プロンプト設定ファイル - 30枚生成用
-
 prompts:
-  - positive: "sadistic loli woman, gothic lolita fashion, confident expression, SM-inspired aesthetic, dark elegant background, high quality, photorealistic"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 25
-    cfg: 7.0
-    
-  - positive: "cute loli girl, maid outfit, playful expression, kawaii aesthetic, pastel colors, anime style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 28
-    cfg: 7.5
-    
-  - positive: "gothic loli, dark dress, mysterious smile, Victorian mansion background, dramatic lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 30
-    cfg: 7.0
-    
-  - positive: "sweet loli character, frilly dress, innocent expression, flower garden, soft lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 25
-    cfg: 6.5
-    
-  - positive: "punk loli style, leather jacket, rebellious look, urban background, edgy aesthetic"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 27
-    cfg: 7.2
-    
-  - positive: "elegant loli, ball gown, royal setting, sophisticated pose, classical art style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 32
-    cfg: 7.8
-    
-  - positive: "schoolgirl loli, uniform, shy expression, classroom setting, natural lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 26
-    cfg: 7.0
-    
-  - positive: "witch loli, magical dress, spellcasting pose, enchanted forest, mystical atmosphere"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 29
-    cfg: 7.4
-    
-  - positive: "princess loli, tiara, royal dress, castle background, fairy tale aesthetic"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 31
-    cfg: 7.6
-    
-  - positive: "cyber loli, futuristic outfit, neon colors, sci-fi background, digital art style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 28
-    cfg: 7.3
-    
-  - positive: "angel loli, white wings, heavenly dress, clouds background, divine lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 30
-    cfg: 7.5
-    
-  - positive: "demon loli, dark wings, seductive smile, hellish background, dramatic shadows"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 33
+  - positive: "beautiful woman, elegant dress, full body portrait, studio lighting, perfect hands with detailed fingers, ultra high quality, photorealistic, masterpiece, detailed skin texture, sharp focus"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
     cfg: 8.0
+    width: 1536
+    height: 1536
     
-  - positive: "cat girl loli, nekomimi, playful pose, cute expression, anime aesthetic"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 25
-    cfg: 6.8
+  - positive: "stunning asian woman, flowing long hair, natural makeup, full body shot, hands visible with beautiful fingers, soft lighting, fashion photography, ultra detailed, masterpiece, perfect skin"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
     
-  - positive: "vampire loli, gothic dress, fangs, castle interior, dark romantic style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 29
-    cfg: 7.7
-    
-  - positive: "nurse loli, medical outfit, caring expression, hospital setting, clean aesthetic"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 27
-    cfg: 7.1
-    
-  - positive: "bunny girl loli, playboy outfit, confident pose, stage lighting, glamorous style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 30
-    cfg: 7.9
-    
-  - positive: "pirate loli, captain outfit, adventurous spirit, ship deck, oceanic background"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 28
-    cfg: 7.2
-    
-  - positive: "samurai loli, traditional armor, katana, cherry blossom background, Japanese style"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 32
-    cfg: 7.6
-    
-  - positive: "steampunk loli, mechanical accessories, Victorian dress, industrial background"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 31
-    cfg: 7.8
-    
-  - positive: "fairy loli, delicate wings, nature dress, magical forest, ethereal lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 29
-    cfg: 7.4
-    
-  - positive: "knight loli, armor dress, sword, medieval castle, heroic pose"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 33
-    cfg: 8.1
-    
-  - positive: "idol loli, stage outfit, microphone, concert hall, spotlight effect"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 27
-    cfg: 7.0
-    
-  - positive: "beach loli, swimsuit, summer vibes, ocean background, sunny atmosphere"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 25
-    cfg: 6.9
-    
-  - positive: "winter loli, fur coat, snow setting, cozy expression, seasonal aesthetic"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 28
-    cfg: 7.3
-    
-  - positive: "space loli, astronaut suit, cosmic background, futuristic technology"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 30
-    cfg: 7.7
-    
-  - positive: "dancer loli, ballet dress, graceful pose, theater stage, artistic lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 32
-    cfg: 7.5
-    
-  - positive: "chef loli, cooking outfit, kitchen setting, culinary theme, warm lighting"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 26
-    cfg: 7.1
-    
-  - positive: "artist loli, paint-stained apron, easel, creative workspace, inspirational mood"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 29
-    cfg: 7.4
-    
-  - positive: "librarian loli, glasses, books, quiet library, intellectual atmosphere"
-    negative: "low quality, blurry, worst quality, bad anatomy, deformed"
-    steps: 27
-    cfg: 7.2
-    
-  - positive: "garden loli, flower crown, botanical dress, greenhouse setting, natural beauty"
-    negative: "low quality, blurry, worst quality, bad anatomy"
-    steps: 31
-    cfg: 7.8
+  - positive: "professional businesswoman, sharp suit, full body pose, hands clasped with perfect fingers, office background, natural lighting, ultra high quality, detailed portrait, masterpiece"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "vintage 1940s woman, victory rolls hairstyle, red lipstick, full body vintage dress, hands posed elegantly with detailed fingers, classic beauty, ultra detailed, masterpiece, perfect lighting"
+    negative: "low quality, blurry, worst quality, bad anatomy, modern clothing, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "athletic woman, fitness model, gym setting, full body dynamic pose, hands gripping equipment with detailed fingers, healthy lifestyle, natural beauty, ultra high quality, detailed muscles, masterpiece"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "bohemian artist, creative workspace, full body pose, hands holding paintbrush with perfect fingers, paint-stained apron, artistic expression, natural light, ultra detailed, masterpiece, perfect composition"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "elegant bride, wedding dress, full body bridal pose, hands holding bouquet with beautiful fingers, soft romantic lighting, happiness, beautiful smile, special day, ultra high quality, detailed fabric, masterpiece"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "beach lifestyle, summer vibes, casual dress, full body beach pose, hands relaxed with detailed fingers, ocean background, golden hour lighting, relaxed, ultra detailed, masterpiece, perfect lighting"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "librarian woman, glasses, full body pose in library, hands touching books with perfect fingers, intellectual beauty, cozy atmosphere, wisdom, ultra high quality, detailed environment, masterpiece"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
+
+  - positive: "mountain hiker woman, outdoor adventure, full body hiking pose, hands holding trekking poles with detailed fingers, natural beauty, backpack, scenic landscape, fresh air, ultra detailed, masterpiece, perfect outdoor lighting"
+    negative: "low quality, blurry, worst quality, bad anatomy, deformed, ugly, distorted face, bad hands, missing fingers, extra fingers, amateur"
+    steps: 40
+    cfg: 8.0
+    width: 1536
+    height: 1536
